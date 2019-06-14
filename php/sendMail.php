@@ -6,7 +6,7 @@ $myArray = json_decode($_POST['elements']);
 for($i = 0; $i < count($myArray)-2; $i++) {
     echo $myArray[$i];
     // $sender = 'support@weblively.cf'; //weblively123
-     $sender = 'weblively36@gmail.com';
+     $sender = '-----your mail id----';
      $recipient = $myArray[$i];
      $subject = "New Call";
      $message = 'Hello, There is a new Conference Call ahead join by clicking on the link - '.$myArray[count($myArray)-2] .'#'.$myArray[count($myArray)-1];
