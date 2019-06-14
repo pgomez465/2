@@ -23,8 +23,6 @@ for($i = 0; $i < count($myArray)-2; $i++) {
   }
 
 
-// $sender = 'prasanna4800@gmail.com';
-// $recipient = 'prasanna4800@gmail.com';
 
 // $subject = "php mail test";
 // $message = "php test message";
