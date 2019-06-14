@@ -1,8 +1,8 @@
 <?php
-$servername = "spark3";
-$username = "weblively";
-$password = "ajWiFp%UeFGQ";
-$dbname = "weblivel_users";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
