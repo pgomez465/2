@@ -13,7 +13,7 @@ else{
 <?php
 function DisplayCont(){
     
-   $conn=mysqli_connect("spark3","weblively","ajWiFp%UeFGQ","weblivel_users");
+   $conn=mysqli_connect("server","host-name","password","database");
     if(mysqli_connect_errno()){
         echo "Failed to connect to database:".mysqli_connect_error();
     }
